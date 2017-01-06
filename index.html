@@ -1,12 +1,19 @@
  <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- after adding vendor we have a short code that loads all the dependancies we need -->
+    <link rel="stylesheet" href="build/css/vendor.css">
+  <script src="build/js/vendor.min.js"></script>
+  <script type="text/javascript" src="build/js/app.js"></script>
 
-		<script type="text/javascript" src="build/js/app.js"></script>
-    <title>Ping Pong</title>
+    <!-- this was done before we added the vendor which will load all the dependancies we need
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- installing bower and all its components -->
+        <title>Ping Pong</title>
   </head>
   <body>
+    <div class="container">
     <form id="ping-pong-form">
       <label for="goal">Enter a number:</label>
       <input id="goal" type="number">
@@ -18,5 +25,10 @@
       <button type="submit">Submit</button>
     </form>
     <ul id="solution"></ul>
+    <h3>Well look at the time! </h3>
+    <h3 id="time"></h3>
+  </div>
+  <a href="weather.html">Click for the weather...</a>
+  
   </body>
   </html>

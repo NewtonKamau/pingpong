@@ -1,0 +1,23 @@
+{
+  "name": "pingpong",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "NewtonKamau <kamaunewton78@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/NewtonKamau/pingpong",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.17.1"
+  }
+}
